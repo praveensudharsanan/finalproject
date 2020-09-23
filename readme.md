@@ -17,12 +17,17 @@
 | Taylar | “Where to Buy” Page, Li |
 		      
 ## Timeline:
-> Sept 23-29 → Specify website overview, functions, determine basic website flow
-> Sept 30-Oct 6 →
-> Oct 7-13 → 
-> Oct 14-20 →
-> Oct 21-27 →
-> Oct 28-Nov 3 →    
-> Nov 4-Nov 10 →    
-> Nov 11-Nov 17 →  
-> Nov 18-Nov 24 →      
+
+| Date | Features to be done |
+| ------ | ------ |
+| Sept 23-29 | Specify website overview, functions, determine basic website flow |
+| Sept 30-Oct 6 |  |
+| Oct 7-13 |  |
+| Oct 14-20 |  |
+| Oct 21-27 |  |   
+| Oct 28-Nov 3 |  | 
+| Nov 4-10 |  | 
+| Nov 11-17 |  | 
+| Nov 18-24 |  | 
+| Nov 25-30 |  |
+
