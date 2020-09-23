@@ -15,12 +15,6 @@
 | Mikhail | Welcome page, About the brand page |
 | Praveen | |
 | Taylar | “Where to Buy” Page, Li |
-	
-Welcome Page(links) → Portfolio (Highlight Key Styles) → Choose a season’s style line 
-		                Events Blog/pictures → 
-		                Where to Buy? Page → Sale Promotions page 
-                            About the Brand → Awards Slider, Brand History
-	                            Contact Page  
 		      
 ## Timeline:
 > Sept 23-29 → Specify website overview, functions, determine basic website flow
