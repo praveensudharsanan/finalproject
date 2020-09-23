@@ -1,10 +1,12 @@
-#Hello, this is Fantastic Four
-####Project Choice: Style Website
-####Project Description:  Description/Concept of the Website: A clothing brand website which is more about demonstrating brands’ history, its latest collections, etc. rather than selling clothes (there still will be a products section). 
+# Hello, this is Fantastic Four
+#### Project Choice: 
+Style Website
+#### Project Description:  
+A clothing brand website which is more about demonstrating brands’ history, its latest collections, etc. rather than selling clothes (there still will be a products section). 
 Ex: https://colorlib.com/preview/#instylr
 ####Objective & Targeted Audience: People who work in the fashion industry or interested in fashion & design. Fans of this brand
 
-####List of Features & Assignments:
+#### List of Features & Assignments:
 Chirag: 
 Junaid:
 Mikhail: Welcome page, About the brand page
@@ -34,7 +36,7 @@ Welcome Page(links) → Portfolio (Highlight Key Styles) → Choose a season’s
 	                            Contact Page  
 		      
 
-####Timeline:
+#### Timeline:
 Sept 23-29 → Specify website overview, functions, determine basic website flow
 Sept 30-Oct 6 →
 Oct 7-13 → 
