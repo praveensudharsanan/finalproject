@@ -20,15 +20,15 @@
 
 | Date | Features to be done |
 | ------ | ------ |
-| Sept 23-29 | Organize website overview and flow (Group) Assign features to group members (Group)|
-| Sept 30-Oct 6 | Research how to achieve each feature (Each Member) Outline webpages & features design (Each Member) |
-| Oct 7-13 | Group Meeting - Finalize website flow (Group) Design skeleton/pseudo code HTML/CSS/Javascript (Each Member) |
+| Sept 23-29 | Organize website overview and flow (Group) **&&** Assign features to group members (Group)|
+| Sept 30-Oct 6 | Research how to achieve each feature (Each Member) **&&** Outline webpages & features design (Each Member) |
+| Oct 7-13 | Group Meeting - Finalize website flow (Group) **&&** Design skeleton/pseudo code HTML/CSS/Javascript (Each Member) |
 | Oct 14-20 | Group Meeting - Finalize website design (Group) |
 | Oct 21-27 |Begin hardcoding webpages & features (Each Member) |   
 | Oct 28-Nov 3 | Continue coding and debugging (Each Member) | 
-| Nov 4-10 | Group Meeting - Progress (Group) Continue coding and debugging (Each Member) | 
+| Nov 4-10 | Group Meeting - Progress (Group) **&&** Continue coding and debugging (Each Member) | 
 | Nov 11-17 | Continue coding and debugging (Each Member)  | 
-| Nov 18-24 | Finish website pages (Each Member) Upload all parts to Github (Group) Group Meeting - Final thoughts (Group) | 
-| Nov 25-Dec 1 | Finish compiling website (Group) Begin testing (Each Member) |
-| Dec 2-8 | Group Meeting - Final Website Submission (Group) Final website testing (Group) |
+| Nov 18-24 | Finish website pages (Each Member) **&&** Upload all parts to Github (Group) **&&** Group Meeting - Final thoughts (Group) | 
+| Nov 25-Dec 1 | Finish compiling website (Group) **&&** Begin testing (Each Member) |
+| Dec 2-8 | Group Meeting - Final Website Submission (Group) **&&** Final website testing (Group) |
 
