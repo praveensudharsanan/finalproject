@@ -20,8 +20,8 @@
 
 | Date | Features to be done |
 | ------ | ------ |
-| Sept 23-29 | Organize website overview and flow (Group)
-Assign features to group members (Group) |
+| Sept 23-29 | Organize website overview and flow (Group) 
+               Assign features to group members (Group)|
 | Sept 30-Oct 6 |  |
 | Oct 7-13 |  |
 | Oct 14-20 |  |
