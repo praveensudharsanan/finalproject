@@ -10,7 +10,7 @@
 ## List of Features & Assignments:
 | Name | Features |
 | ------ | ------ |
-| Chirag |  |
+| Chirag | Sign up/Log in, Comment section, Product review, Email newsletter |
 | Junaid |  |
 | Mikhail | Welcome page(Features: slideshow, pictures-links with hover), About the brand page(Features: slider) |
 | Praveen | |
