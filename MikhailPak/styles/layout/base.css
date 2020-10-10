@@ -84,3 +84,7 @@ html {
   section {
     margin-bottom: 150px;
   }
+
+  address {
+    font-style: normal;
+  }
