@@ -1,5 +1,6 @@
 body {
   font-size: 15px;
+  color: #2b3948;
   margin: 0;
   width: 100%;
   background: #eaeaea;
@@ -8,8 +9,9 @@ body {
 
 }
 
+
   .centerpadding{
-    background-color:#000;
+    background-color:#0a001d;
     color:#fff;
     display:inline-block;
     padding-left:10px;
@@ -94,9 +96,9 @@ body {
     top: 0;
     left: 0;
     padding: 10px 15px;
-    background-color: #3A2E39 ;
+    background-color: #2b3938 ;
     text-transform: uppercase;
-    color: #F15152;
+    color: #9E0000;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
   }
@@ -107,7 +109,7 @@ body {
   
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #1b1f22;
     
     
   }
@@ -156,3 +158,21 @@ body {
   margin-bottom: 100px;
 
 }
+.fakeimg {
+  background-color: #aaa;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.card_column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.card_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
