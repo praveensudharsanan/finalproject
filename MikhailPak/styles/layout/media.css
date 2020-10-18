@@ -69,18 +69,27 @@
 
     .about--container {
         flex-direction: column;
+        justify-content: center;
         height: 100vh;
-        padding-top: 50px;
     }
 
     .about__img {
         margin-right: 0;
         margin-bottom: 2em;
-
+        flex: none;
     }
 
     .about__content {
         width: 80%;
         text-align: center;
+        flex: none;
     }
+
+    .portfolio__link h4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
 }
