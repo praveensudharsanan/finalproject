@@ -29,11 +29,7 @@
     padding-right: 20px;
 
 }
-.socials__item {
-    margin-right: 20px;
-    opacity: 100%;
-    transition: opacity 0.3s;
-}
+
 .socials__item:last-child {
     margin-right: 0;
 }
@@ -73,7 +69,7 @@
     transform: translate(-50%, -50%);
     width: 32px;
     height: 32px;
-    background: url(/PraveensudharsananProjectfiles/images/icons/css_sprites.png  ) -10px -10px;
+    background: url(/PraveensudharsananProjectfiles/images/icons/css_sprites.png ) -10px -10px;
 }
 .socials__item--icon--ins .socials__link::after {
     content: "";
@@ -84,7 +80,7 @@
     transform: translate(-50%, -50%);
     width: 32px;
     height: 32px;
-    background-image: url(/PraveensudharsananProjectfiles/images/icons/css_sprites.png ) -62px -10px;
+    background: url(/PraveensudharsananProjectfiles/images/icons/css_sprites.png  ) -62px -10px;
 }
 .socials__item--icon--in .socials__link::after {
     content: "";
@@ -108,15 +104,7 @@
     height: 32px;
     background: url(/PraveensudharsananProjectfiles/images/icons/css_sprites.png ) -166px -10px;
 }
-.header {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    background: #fff;
-    box-shadow: 0px -5px 7px 5px rgba(148,148,148,1);
-    
 
-}
 
 .header--container {
     display: flex;
@@ -193,4 +181,66 @@ section {
     width: 60px;
     height: 60px;
     padding-left: 40px;
+}
+@media only screen and (min-width:360px) {
+    .header__menu{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .socials__header {
+        margin-right: 45px;
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        width: 25px;
+        right: 20px;
+    }
+}
+
+.read__button--link {
+    padding: 15px 40px;
+    border: 3px #fff solid;
+    text-transform: uppercase;
+}
+
+.read__button--link--black {
+    border-color: #000;
+}
+
+@media screen and (max-width: 1200px) {
+    .header__menu {
+        width: 55%;
+    }
+    .socials__item {
+        margin-right: 10px;
+    }
+
+    .footer__col {
+        flex: none;
+    }
+
+    .footer__col--one {
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-right: 0;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    .footer__text {
+        text-align: center;
+    }
 }
