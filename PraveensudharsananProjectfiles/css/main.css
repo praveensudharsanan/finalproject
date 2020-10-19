@@ -36,9 +36,6 @@ body {
   .container {
     max-width:100%;
     margin: 0 auto;
-    
-    
-   
   }
   .tophead {
     text-align: center;
@@ -47,8 +44,6 @@ body {
     background: white;
   }
   
- 
- 
   h1, h2, h3, h5, h5 {
     font-weight: 600;
   }
@@ -155,29 +150,75 @@ body {
 
 }
 .fakeimg {
-  background-image: url(/PraveensudharsananProjectfiles/images/jeans.jpg);
+  background-image: url(/PraveensudharsananProjectfiles/images/logo.png);
   max-width: 100%;
   padding: 20px;
 }
 
-.card_column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
 
-.card_row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-.small_card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+
+.header_grid {
   text-align: center;
-  background-color: #f1f1f1;
+  padding: 32px;
+}
+
+.row_grid{
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column_grid{
+  -ms-flex: 50%; 
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
   
 }
 
 
+.btn_grid{
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn_grid:hover {
+  background-color: #ddd;
+}
+
+.btn_grid.active {
+  background-color: #666;
+  color: white;
+}
+.pop_img{
+  padding-bottom: 10px;
+  
+}
+.pop_content{
+display:flex;
+
+}
+.pop_content p{
+  padding-left: 10px;
+  
+  padding-top: 50px;
+
+}
+
+.pop_content:hover {
+  box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.45);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
