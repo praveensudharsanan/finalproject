@@ -193,35 +193,37 @@
                 <div class="rightcolumn">
                     <div class="card">
                         <h2>About Company</h2>
-                        <img class="pop_img" src="/PraveensudharsananProjectfiles/images/logo.png" style="width:50%">
+                        <img class="pop_img" src="images/logo.png" style="width:50%">
                         <p>
                             Upstairs, 347 Queen St W 2nd floor, Toronto, ON M5V 2A4, Canada
                         </p>
                     </div>
                     <div class="card">
-                        <h3>Popular Post</h3>
+                        
+                        <button class="accordion"><h3>Popular Post</h3></button>
                         <div class="row_grid"> 
                             <div class="column_grid">
                                 <div class=pop_content>
-                                    <img class="pop_img" src="/PraveensudharsananProjectfiles/images/pop1.jpg" style="width:50%">
+                                    
+                                    <img class="pop_img" src="images/pop1.jpg" style="width:50%">
                                     <p>
                                         25 Best Clothing Materials All the Time
                                     </p>
                                 </div>
                               <div class=pop_content>
-                                <img class="pop_img"  src="/PraveensudharsananProjectfiles/images/pop2.jpg" style="width:50%">
+                                <img class="pop_img"  src="images/pop2.jpg" style="width:50%">
                                 <p>
                                    Wrangler new trending fashions
                                 </p>
                               </div>
                               <div class=pop_content>
-                                <img class="pop_img"  src="/PraveensudharsananProjectfiles/images/pop3.jpg" style="width:50%">
+                                <img class="pop_img"  src="images/pop3.jpg" style="width:50%">
                                 <p>
                                     Levis Casuals the best fashion brand
                                 </p>
                               </div>
                               <div class=pop_content>
-                                <img class="pop_img"  src="/PraveensudharsananProjectfiles/images/pop4.jpg" style="width:50%">
+                                <img class="pop_img"  src="images/pop4.jpg" style="width:50%">
                                 <p>
                                     25 Best Clothing Materials All the Time
                                 </p>
@@ -233,12 +235,45 @@
                           </div>
                           
                     </div>
-                    <div class="card">
-                        <h3>Follow Me</h3>
-                        <p>Some text..</p>
-                    </div>
+                   
                     <section>
+                        <div class="card">
                         <h1>categories</h1>
+                        <button class="accordion">Shirts</button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">Jackets</button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">Sweaters</button>
+                    <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <script>
+                        var acc = document.getElementsByClassName("accordion");
+                        var i;
+                        
+                        for (i = 0; i < acc.length; i++) {
+                          acc[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                              panel.style.display = "none";
+                            } else {
+                              panel.style.display = "block";
+                            }
+                          });
+                        }
+                        </script>
+                        </div>
                     </section>
                 </div>
                 
