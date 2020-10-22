@@ -246,3 +246,150 @@ display:flex;
   background-color: white;
   overflow: hidden;
 }
+
+.container figure {
+  margin: 0;
+}
+
+.container img {
+  max-width: 100%;
+  display: block;
+}
+
+.container1{
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.featured-news {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 15px;
+
+}
+
+.featured-news h2.featured-section {
+  flex: 0 0 100%;
+}
+
+.featured-news .featured-news-main {
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.featured-news .featured-news-list {
+  flex: 1;
+}
+
+.featured-news .featured-news-list-item {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+
+}
+.featured-news .featured-news-list-item  figure {
+  margin-right: 10px;
+}
+
+/* news list items  */
+.latest-news {
+  padding: 0 15px;
+  width: 100%;
+}
+
+.latest-news .latest-news-item {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.latest-news .latest-news-item .date {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width : 375px) {
+  .featured-news {
+    width: 100%;
+  }
+
+  .featured-news .featured-news-main {
+    width: 100%;
+    padding-right: 5%;
+  }
+
+  .featured-news .featured-news-main {
+    width: 100%;
+    padding-right: 5%;
+  }
+
+  .featured-news .featured-news-list {
+    width: 100%;
+  }
+
+  .featured-news .featured-news-list {
+    width: 100%;
+  }
+
+
+
+  .latest-news {
+    padding: 0 15px;
+    flex: 1;
+  }
+}
+
+@media only screen and (min-width : 560px) {
+  .featured-news .featured-news-main {
+    width: 50%;
+    padding-right: 5%;
+  }
+
+  .featured-news .featured-news-list {
+    width: 45%;
+  }
+
+
+
+
+}
+
+@media only screen and (min-width : 768px) {
+  .featured-news {
+    width: 60%;
+  }
+
+  .featured-news .featured-news-main {
+    width: 100%;
+    padding-right: 5%;
+  }
+
+  .featured-news .featured-news-list {
+    width: 45%;
+  }
+
+  .latest-news {
+    padding: 0 15px;
+    flex: 1;
+  }
+}
+
+@media only screen and (min-width : 968px) {
+
+  .featured-news .featured-news-main {
+    width: 50%;
+    padding-right: 5%;
+  }
+
+  .featured-news .featured-news-list {
+    width: 45%;
+  }
+}
