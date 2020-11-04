@@ -63,6 +63,10 @@
         justify-content: space-around;
     }
 
+    .footer__col--three {
+        margin-right: 0;
+    }
+
     .about, .hero {
         margin-bottom: 0;
     }
@@ -86,10 +90,70 @@
     }
 
     .portfolio__link h4 {
-        display: none;
+        font-size: 1.5em;
     }
 }
 
 @media screen and (max-width: 480px) {
-    
+    .hero__title {
+        font-size: 2.8em;
+    }
+    .socials {
+        display: none;
+    }
+    .socials__footer {
+        display: block;
+    }
+    .about__title {
+        font-size: 2.5em;
+    }
+    .portfolio__row {
+        flex-wrap: wrap;
+    }
+    .row__col {
+        flex-basis: 48%;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    .row__col--two {
+        margin-right: 0;
+    }
+    .row__col--three {
+        flex-basis: 100%;
+    }
+    .events__list {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .event__item {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .event__info {
+        padding: 15px;
+    }
+    .event__title {
+        font-size: 1.2em;
+    }
+    .event__hashtags {
+        font-size: 0.8em;
+    }
+    .event__text {
+        text-align: center;
+        font-size: 0.9em;
+    }
+    .event__pic {
+        height: 250px;
+    }
+    .footer__col {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .footer__col--three {
+        margin-right: auto;
+    }
+    .footer__col:last-child {
+        margin-right: auto;
+    }
 }

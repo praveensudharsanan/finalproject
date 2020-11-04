@@ -18,12 +18,12 @@
     text-transform: uppercase;
     font-weight: bold;
     color: #9E0000;
-    font-size: 40px;
+    font-size: 3em;
     margin-bottom: 5px;
 }
 
 .about__subtitle {
-    font-size: 25px;
+    font-size: 1.5em;
     margin-bottom: 20px;
 }
 
