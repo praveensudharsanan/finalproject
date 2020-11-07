@@ -67,7 +67,7 @@
     z-index: 5;
     opacity: 0;
     transition: all 0.3s ease 0s;
-    font-size: 30px;
+    font-size: 2em;
 }
 
 .portfolio__link:hover h4 {
