@@ -38,3 +38,72 @@
 .read__button--link--black:hover {
     color: #fff;
 }
+
+
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #000;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: border-color 0.5s;
+}
+
+.button:hover {
+    border-color: #9E0000;
+    transition: 0.5s;
+}
+
+.button:hover .left-button::after {
+    background-image: url(../../images/icons/left1.png);
+    transition: 0.5s;
+}
+
+.button:hover .right-button::after {
+    background-image: url(../../images/icons/right1.png);
+    transition: 0.5s;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button-link {
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: relative;
+}
+
+.left-button::after {
+    background-image: url(../../images/icons/left.png);
+    background-size: 20px 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -45%);
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+    transition: 0.5s;
+}
+
+.right-button::after {
+    background-image: url(../../images/icons/right.png);
+    background-size: 20px 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -45%);
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+    transition: 0.5s;
+}

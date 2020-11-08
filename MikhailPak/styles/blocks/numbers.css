@@ -1,0 +1,17 @@
+.numbers {
+    color: #fff;
+    padding: 100px 20%;
+    background: url(../../images/content/23.jpg) 250px -30px no-repeat;
+    background-size: 40%;
+    background-color: #000;
+}
+
+.numbers__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.number {
+    font-size: 5em;
+}
