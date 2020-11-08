@@ -2,14 +2,15 @@
     color: #000;
     padding-bottom: 20px;
     padding-top: 100px;
-    box-shadow: 0px 5px 7px 5px rgba(148,148,148,1);
-    font-family: 'Open Sans', Helvetica, sans-serif;
+    box-shadow: 0px -3px 5px -3px rgba(0, 0, 0, 0.75);
     font-size: 16px;
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    
-    
+    display: flex;
+    width: 100%;
+
+
 }
 
 .footer__cols {
@@ -67,6 +68,7 @@
     margin-left: auto;
     min-width: 215px;
 }
+
 address {
     font-style: normal;
-  }
+}
