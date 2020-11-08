@@ -14,10 +14,10 @@
 @import "./blocks/menu.css";
 @import "./blocks/socials.css";
 @import "./blocks/hamburger.css";
-@import "./blocks/.css";
-@import "./blocks/.css";
-@import "./blocks/.css";
-@import "./blocks/.css";
+@import "./blocks/desc.css";
+@import "./blocks/awards.css";
+@import "./blocks/numbers.css";
+@import "./blocks/history.css";
 @import "./blocks/.css";
 
 @import "./layout/media.css";

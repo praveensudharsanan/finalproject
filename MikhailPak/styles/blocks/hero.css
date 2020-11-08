@@ -13,3 +13,13 @@
     font-weight: bold;
     margin-bottom: 50px;
 }
+
+.hero__about {
+    height: 50vh;
+    background: url(../../images/content/21.jpg) center -10px no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
