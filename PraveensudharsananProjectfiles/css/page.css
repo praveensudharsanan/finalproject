@@ -26,10 +26,17 @@
   text-align: center
 }
 
-.textstyle {
+.page-header {
   padding-top: 32px;
   padding-bottom: 32px;
-
+}
+.page-header h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.page-header p {
+  margin-top: 0;
 }
 
 .top-header {
@@ -195,14 +202,7 @@
   background: #ffffff;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-.container figure {
-  margin: 0;
-}
-
-.container img {
-  max-width: 100%;
-  display: block;
+  margin-top: 20px;
 }
 
 .more-news .container {
@@ -229,6 +229,9 @@
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
+.featured-news .featured-news-main figure {
+  margin-bottom: 10px;
+}
 
 .featured-news .featured-news-list {
   flex: 1;
@@ -251,6 +254,9 @@
   padding: 0 15px;
   width: 100%;
 }
+.latest-news h3 {
+  font-weight: 600;
+}
 
 .latest-news .latest-news-item {
   display: flex;
@@ -260,8 +266,17 @@
 }
 
 .latest-news .latest-news-item .date {
+  text-align: center;
   margin-right: 10px;
   font-weight: bold;
+  background: #0a001d;
+  color: #ffffff;
+  padding: 15px;
+  min-width: 50px;
+}
+.latest-news .latest-news-item .date span {
+  font-size: 40px;
+  line-height: 1;
 }
 
 @media only screen and (min-width : 375px) {
@@ -339,5 +354,51 @@
 
   .featured-news .featured-news-list {
     width: 45%;
+  }
+}
+
+/* --------------------------- customer review box -------------------------- */
+
+.review-section {  
+  margin-top: 20px;  
+  background-color: #ffffff;
+  padding: 25px 15px;
+}
+
+.review-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-radius: 3px;
+  border-bottom: 2px dashed #eaeaea;
+}
+.review-item:last-child {
+  border: none;
+}
+.review-item figure img {
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+}
+.review-item figure {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.review-item .review-content {
+  padding: 15px 20px;
+}
+
+@media only screen and (min-width : 640px) {
+ .review-item {
+    flex-direction: row;
+  }
+
+  .review-item figure {
+    width: 25%;
+    margin-bottom: 0;
+  }
+  .review-item .review-content {
+    width: 75%;
   }
 }
