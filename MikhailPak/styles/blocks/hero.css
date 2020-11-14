@@ -16,6 +16,16 @@
 
 .hero__about {
     height: 50vh;
+    background: url(../../images/content/24.jpg) center -300px no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero__team {
+    height: 50vh;
     background: url(../../images/content/21.jpg) center -10px no-repeat;
     background-size: cover;
     display: flex;
