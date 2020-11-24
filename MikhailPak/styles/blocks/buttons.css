@@ -43,6 +43,7 @@
 
 .buttons {
     display: flex;
+    margin-bottom: 5em;
 }
 
 .button {

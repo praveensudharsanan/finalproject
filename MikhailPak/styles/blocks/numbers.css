@@ -1,8 +1,8 @@
 .numbers {
     color: #fff;
-    padding: 100px 20%;
-    background: url(../../images/content/23.jpg) 250px -30px no-repeat;
-    background-size: 40%;
+    padding: 100px 10%;
+    background: url(../../images/content/23.jpg) center center no-repeat;
+    background-size: 100%;
     background-color: #000;
 }
 

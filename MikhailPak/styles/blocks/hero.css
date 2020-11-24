@@ -16,7 +16,7 @@
 
 .hero__about {
     height: 50vh;
-    background: url(../../images/content/24.jpg) center -300px no-repeat;
+    background: url(../../images/content/24.jpg) center center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
