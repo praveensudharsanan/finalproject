@@ -35,6 +35,9 @@
                                 <li class="menu__item">
                                     <a href="../TaylarOatsProjectFeature1/Page2Main.html" class="menu__link">Contact</a>
                                 </li>
+                                <li class="menu__item">
+                                    <a href="../ChiragJoshi/join.html" class="menu__link">Join</a>
+                                </li>
                             </ul>
                         </nav>
                         <div class="socials socials__header">
@@ -56,8 +59,23 @@
                         <div class="hamburger">
                             <input id="menu__toggle" type="checkbox" class="menu__input">
                             <label for="menu__toggle" id="menu__btn">
-                                <span></span>
+                                <span class="open-span"></span>
                             </label>
+                            <div class="hamburger__overlay">
+                                <input id="menu__toggle--close" type="checkbox" class="menu__input">
+                                <label for="menu__toggle--close" id="menu__btn--close">
+                                    <span class="close-span"></span>
+                                </label>
+                                <ul class="hamburger__list">
+                                    <li class="ham__item"><a href="" class="ham__link">Home</a></li>
+                                    <li class="ham__item"><a href="" class="ham__link">The Brand</a></li>
+                                    <li class="ham__item"><a href="" class="ham__link">Portfolio</a></li>
+                                    <li class="ham__item"><a href="" class="ham__link">Shop</a></li>
+                                    <li class="ham__item"><a href="" class="ham__link">Blog</a></li>
+                                    <li class="ham__item"><a href="" class="ham__link">Contact</a></li>
+                                    <li class="ham__item"><a href="" class="ham__link">Join</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -300,5 +318,8 @@
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
