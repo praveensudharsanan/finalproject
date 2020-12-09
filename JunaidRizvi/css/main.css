@@ -1,0 +1,66 @@
+body {
+  font-size: 15px;
+  color: #2b3948;
+  margin: 0;
+  width: 100%;
+  background: #ffffff;
+  line-height: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  /* border: 1px solid red; */
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.faq {
+  padding: 0 20px;
+  margin-top: 150px;
+}
+
+.faq p {
+  margin-bottom: 30px;
+  line-height: 150%;
+}
+
+.accordion {
+  background-color: #f2f2f2;
+  color: #444;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  border-top: 1px solid #e7e7e7;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #fafafa;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
