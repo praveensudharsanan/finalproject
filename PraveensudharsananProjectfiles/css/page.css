@@ -626,6 +626,7 @@ animation: shake 1.5s infinite;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+
 }
 
 /* -------------------------------------------------------------------------- */
@@ -639,7 +640,7 @@ animation: shake 1.5s infinite;
   width:100vw;
   height:100vh;
   background:rgba(0,0,0,0.7);
-  z-index:1;
+  z-index:999;
   display:none;
 }
 
@@ -651,7 +652,7 @@ animation: shake 1.5s infinite;
   background:#fff;
   width:500px;
   height:250px;
-  z-index:2;
+  z-index:999;
   text-align:center;
   padding:20px;
   box-sizing:border-box;
